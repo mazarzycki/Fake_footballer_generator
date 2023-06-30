@@ -33,7 +33,6 @@ ENG = [
     "Trowbridge", "Hitchin", "Frome", "Farnham", "Yate", "Ashford", "Canvey Island", "Glossop", "Deal",
     "Dartford", "Dunstable", "Swadlincote", "Horsham", "Wisbech", "Cramlington", "Redcar", "Hamilton"],
 
-     
     # English club names
     ['Fc', 'City', 'United', 'Athletic', 'County', 'Rangers', 'Rovers']
 ]

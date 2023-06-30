@@ -1,6 +1,6 @@
 import pandas as pd
-from data import ENG, ITA, SPA, BRA, position
-from main import FootballerGenerator
+from fake_footballer.data import ENG, ITA, SPA, GER, position
+from fake_footballer.main import FootballerGenerator
 
 country = 'ENG'  # Specify the desired country code
 

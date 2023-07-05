@@ -26,6 +26,8 @@ class FootballerGenerator:
         date_of_birth = self.generate_random_date_of_birth(1986, 2005)
         matches_played = random.randint(1, 34)
         minutes_played = random.randint(matches_played, matches_played * 90)
+        # TODO Make goals and assists more realistic
+        # TODO Add more statistics: xG and others
         goals = (lambda pos: 0 if pos == "GK" else random.randint(0, min(minutes_played // 50, 6)) if pos in ["LB", "CB", "RB"] else random.randint(0, min(minutes_played // 50, 9)) if pos in ["DM", "CM"] else random.randint(0, min(minutes_played // 50, 12)) if pos in ["AM", "LM", "RM"] else random.randint(0, min(minutes_played // 30, 28)))(position)
         assists = (lambda pos: random.randint(0, min(minutes_played // 50, 3)) if pos == "GK" else random.randint(0, min(minutes_played // 50, 6)) if pos in ["LB", "CB", "RB"] else random.randint(0, min(minutes_played // 50, 9)) if pos in ["DM", "CM"] else random.randint(0, min(minutes_played // 50, 12)) if pos in ["AM", "LM", "RM"] else random.randint(0, min(minutes_played // 30, 19)))(position)
 
@@ -44,8 +46,8 @@ class FootballerGenerator:
         }
 
 # Prompt the user to choose the country
+# TODO Make it possible to choose players from all countries at the same time
 print("Available countries:")
-print("0. Any countries")
 print("1. England (ENG)")
 print("2. Italy (ITA)")
 print("3. Spain (SPA)")

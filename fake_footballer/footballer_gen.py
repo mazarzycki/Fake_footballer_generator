@@ -92,7 +92,7 @@ num_footballers = int(num_footballers)
 
 # Generate fake footballers
 fake_footballers = [footballer_generator.generate_fake_footballer(country) for _ in range(num_footballers)]
-''' 
+ 
 # Create DataFrame from the list of footballers
 df = pd.DataFrame(fake_footballers)
 
@@ -101,4 +101,3 @@ filename = f'fake_{country}_{num_footballers}_footballers.xlsx'
 df.to_excel(filename, index=False)
 print(f"Fake footballers data saved to {filename}:\n")
 print(df)
-'''

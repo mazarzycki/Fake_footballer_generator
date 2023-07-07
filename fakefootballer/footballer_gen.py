@@ -1,7 +1,7 @@
 import datetime
 import pandas as pd
 import random
-from fake_footballer.data import ENG, ITA, SPA, GER, position
+from fakefootballer.data import ENG, ITA, SPA, GER, position
 
 class FootballerGenerator:
     def __init__(self, first_names, last_names, cities, club, position):

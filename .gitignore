@@ -1,4 +1,5 @@
 __pycache__/data.cpython-310.pyc
 __pycache__/main.cpython-310.pyc
 create_footballer.py
-build/lib/fake_footballer/to_do.py
+one_club_gen.py
+use_example.py

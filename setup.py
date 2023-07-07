@@ -2,10 +2,10 @@ from setuptools import setup
 
 VERSION = '1.0' 
 DESCRIPTION = 'A package to generate fake footballer data'
-LONG_DESCRIPTION = 'A package to generate fake footballer data'
+LONG_DESCRIPTION = 'A package to generate fake footballer data for data science training purpose'
 
 setup(
-    name='fake_footballer_generator',
+    name='footballer_generator',
     version='1.0',
     description='A package to generate fake footballer data',
     author='Marek Zarzycki',

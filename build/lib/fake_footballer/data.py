@@ -1,4 +1,4 @@
-# There is 4 lists for England (ENG), Italy (ITA), Spain (SPA), Germany (GER)
+# There are 4 lists: England (ENG), Italy (ITA), Spain (SPA), Germany (GER)
 
 ENG = [
     # English male names

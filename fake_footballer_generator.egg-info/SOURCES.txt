@@ -3,8 +3,6 @@ setup.py
 fake_footballer/__init__.py
 fake_footballer/data.py
 fake_footballer/footballer_gen.py
-fake_footballer/one_club_gen.py
-fake_footballer/to_do.py
 fake_footballer_generator.egg-info/PKG-INFO
 fake_footballer_generator.egg-info/SOURCES.txt
 fake_footballer_generator.egg-info/dependency_links.txt

@@ -1,12 +1,13 @@
 Metadata-Version: 2.1
-Name: fake-footballer-generator
+Name: footballfakedata
 Version: 1.0
-Summary: A package to generate fake footballer data
+Summary: A package to generate fake footballer data and statistics
 Home-page: UNKNOWN
 Author: Marek Zarzycki
 Author-email: contact@mazarzycki.com
 License: UNKNOWN
 Platform: UNKNOWN
+License-File: LICENSE
 
 UNKNOWN
 

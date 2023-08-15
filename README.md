@@ -10,7 +10,7 @@ Generate fake footballer data with this Python package.
 You can install the package using pip:
 
 ```shell
-pip install fake-footballer
+pip install footballfakedata
 ```
 ## Usage
 

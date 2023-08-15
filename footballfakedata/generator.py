@@ -1,7 +1,7 @@
 import datetime
 import pandas as pd
 import random
-from fakefootballer.data import ENG, ITA, SPA, GER, position
+from footballfakedata.data import ENG, ITA, SPA, GER, position
 
 class FootballerGenerator:
     def __init__(self, first_names, last_names, cities, club, position):
@@ -45,3 +45,4 @@ class FootballerGenerator:
             'assists': assists
         }
     # TODO add a piece of code that allows you to create one fake club with 23 players
+    

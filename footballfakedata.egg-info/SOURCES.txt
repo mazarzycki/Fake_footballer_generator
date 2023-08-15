@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+footballfakedata/__init__.py
+footballfakedata/data.py
+footballfakedata/generator.py
+footballfakedata.egg-info/PKG-INFO
+footballfakedata.egg-info/SOURCES.txt
+footballfakedata.egg-info/dependency_links.txt
+footballfakedata.egg-info/requires.txt
+footballfakedata.egg-info/top_level.txt

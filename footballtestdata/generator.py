@@ -1,7 +1,6 @@
 import datetime
-import pandas as pd
 import random
-from footballfakedata.data import ENG, ITA, SPA, GER, position
+from footballtestdata.data import ENG, ITA, SPA, GER, position
 
 class FootballerGenerator:
     def __init__(self, first_names, last_names, cities, club, position):

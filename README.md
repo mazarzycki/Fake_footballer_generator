@@ -10,15 +10,15 @@ Generate fake footballer data with this Python package.
 You can install the package using pip:
 
 ```shell
-pip install footballfakedata
+pip install footballtestdata
 ```
 ## Usage
 
 Import the FootballerGenerator class and other necessary modules to generate fake footballer data:
 
 ```
-from footballfakedata import FootballerGenerator, position
-from footballfakedata.data import ENG, ITA, SPA, BRA
+from footballtestdata import FootballerGenerator, position
+from footballtestdata.data import ENG, ITA, SPA, GER
 ```
 
 Initialize the FootballerGenerator object with the desired data for a specific country:
@@ -46,8 +46,8 @@ Extended use case:
 # This is the use example of footballer_gen. First do all necessary imports: 
 
 import pandas as pd
-from footballfakedata.data import ENG, ITA, SPA, GER, position
-from footballfakedata.footballer_gen import FootballerGenerator
+from footballtestdata.data import ENG, ITA, SPA, GER, position
+from footballtestdata.footballer_gen import FootballerGenerator
 
 # Map the user's choice to the country code
 country_mapping = {
